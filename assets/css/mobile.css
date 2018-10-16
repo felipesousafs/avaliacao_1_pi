@@ -1,0 +1,114 @@
+.mobile-only {
+  display: block;
+}
+
+.desktop-only {
+  display: none;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  width: 100%;
+}
+
+.left-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.left-menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.left-menu li:hover {
+  background-color: #0099cc;
+}
+
+.right-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.right-menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #103948;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.right-menu li:hover {
+  background-color: #006f93;
+}
+.col-sm-1 {
+  width: 8.33%;
+  transition: 400ms;
+}
+
+.col-sm-2 {
+  width: 16.66%;
+  transition: 400ms;
+}
+
+.col-sm-3 {
+  width: 25%;
+  transition: 400ms;
+}
+
+.col-sm-4 {
+  width: 33.33%;
+  transition: 400ms;
+}
+
+.col-sm-5 {
+  width: 41.66%;
+  transition: 400ms;
+}
+
+.col-sm-6 {
+  width: 50%;
+  transition: 400ms;
+}
+
+.col-sm-7 {
+  width: 58.33%;
+  transition: 400ms;
+}
+
+.col-sm-8 {
+  width: 66.66%;
+  transition: 400ms;
+}
+
+.col-sm-9 {
+  width: 75%;
+  transition: 400ms;
+}
+
+.col-sm-10 {
+  width: 83.33%;
+  transition: 400ms;
+}
+
+.col-sm-11 {
+  width: 91.66%;
+  transition: 400ms;
+}
+
+.col-sm-12 {
+  width: 100%;
+  transition: 400ms;
+}
